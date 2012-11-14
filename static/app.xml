@@ -27,9 +27,9 @@
      relative path.
      Tip: You can load it from a local web server such as
      http://localhost/app.js for faster single user development -->
-<script src="//YOUR_APP_ID.appspot.com/static/app.js"></script>
+<script src="//clickandholdit.appspot.com/static/app.js"></script>
 
-<h1><img src="//YOUR_APP_ID.appspot.com/static/hangouts-logo.png" 
+<h1><img src="//clickandholdit.appspot.com/static/hangouts-logo.png" 
     alt="Google+ Hangouts Logo" height="50" width="50">Starter App</h1>
 <div style="float: left; padding: 0px 20px; border-right: 1px solid #EEE">
   <p>Collaborate with your friends to count to a big number!</p>
@@ -55,7 +55,7 @@
       onClick="getMessageClick()"/>
 </div>
 <div style="clear: both;"></div>
-<script src="processing.js" type="text/javascript"></script>
+<script src="https://clickandholdit.appspot.com/static/processing.js" type="text/javascript"></script>
 		<script type="text/javascript">
 // convenience function to get the id attribute of generated sketch html element
 function getProcessingSketchId () { return 'BouncingCircle'; }
@@ -65,7 +65,7 @@ function getProcessingSketchId () { return 'BouncingCircle'; }
 	<body>
 		<div id="content">
 			<div>
-				<canvas id="BouncingCircle" data-processing-sources="BouncingCircle.pde" 
+				<canvas id="BouncingCircle" data-processing-sources="https://clickandholdit.appspot.com/static/BouncingCircle.pde" 
 						width="800" height="800">
 					<p>Your browser does not support the canvas tag.</p>
 					<!-- Note: you can put any alternative content here. -->
@@ -76,7 +76,7 @@ function getProcessingSketchId () { return 'BouncingCircle'; }
 	    	</div>
 			<h1>BouncingCircle</h1>
     		<p id="description"></p>
-			<p id="sources">Source code: <a href="BouncingCircle.pde">BouncingCircle</a> </p>
+			<p id="sources">Source code: <a href="https://clickandholdit.appspot.com/static/BouncingCircle.pde">BouncingCircle</a> </p>
 			<p>
 			Built with <a href="http://processing.org" title="Processing">Processing</a>
 			and <a href="http://processingjs.org" title="Processing.js">Processing.js</a>
